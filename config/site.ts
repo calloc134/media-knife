@@ -1,9 +1,10 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Media Knife",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    // メディアに対し、様々な操作を行うためのGUIツール
+    "A GUI toolkit for various operations on media",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +12,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
     github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    
   },
 }
