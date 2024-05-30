@@ -1,0 +1,29 @@
+[project]
+name = "media-knife-colab"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "calloc134", email = "115209243+calloc134@users.noreply.github.com" }
+]
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn>=0.30.0",
+    "nest-asyncio>=1.6.0",
+    "ipykernel>=6.29.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/media_knife_colab"]
