@@ -8,3 +8,5 @@ wheels/
 
 # venv
 .venv
+*.mp4
+lab.ipynb
