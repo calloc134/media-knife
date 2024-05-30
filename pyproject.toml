@@ -10,7 +10,7 @@ dependencies = [
     "uvicorn>=0.30.0",
     "nest-asyncio>=1.6.0",
     "ipykernel>=6.29.4",
-    "google.colab>=1.0.0",
+    "yt_dlp>=2024.5.27",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

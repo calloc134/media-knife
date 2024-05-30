@@ -16,9 +16,15 @@ anyio==4.4.0
     # via watchfiles
 asttokens==2.4.1
     # via stack-data
+brotli==1.1.0
+    # via yt-dlp
 certifi==2024.2.2
     # via httpcore
     # via httpx
+    # via requests
+    # via yt-dlp
+charset-normalizer==3.3.2
+    # via requests
 click==8.1.7
     # via typer
     # via uvicorn
@@ -51,6 +57,7 @@ idna==3.7
     # via anyio
     # via email-validator
     # via httpx
+    # via requests
 ipykernel==6.29.4
     # via media-knife-colab
 ipython==8.24.0
@@ -73,6 +80,8 @@ matplotlib-inline==0.1.7
     # via ipython
 mdurl==0.1.2
     # via markdown-it-py
+mutagen==1.47.0
+    # via yt-dlp
 nest-asyncio==1.6.0
     # via ipykernel
     # via media-knife-colab
@@ -94,6 +103,8 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
     # via stack-data
+pycryptodomex==3.20.0
+    # via yt-dlp
 pydantic==2.7.2
     # via fastapi
 pydantic-core==2.18.3
@@ -112,6 +123,8 @@ pyyaml==6.0.1
 pyzmq==26.0.3
     # via ipykernel
     # via jupyter-client
+requests==2.32.3
+    # via yt-dlp
 rich==13.7.1
     # via typer
 shellingham==1.5.4
@@ -145,6 +158,9 @@ typing-extensions==4.12.0
     # via typer
 ujson==5.10.0
     # via fastapi
+urllib3==2.2.1
+    # via requests
+    # via yt-dlp
 uvicorn==0.30.0
     # via fastapi
     # via media-knife-colab
@@ -156,3 +172,6 @@ wcwidth==0.2.13
     # via prompt-toolkit
 websockets==12.0
     # via uvicorn
+    # via yt-dlp
+yt-dlp==2024.5.27
+    # via media-knife-colab
