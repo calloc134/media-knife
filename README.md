@@ -18,4 +18,7 @@ Google Colab 上で動作することを想定しています。
 - ffmpeg & ffmpeg-python
 - yt-dlp
 - demucs
--
+
+また、フロントエンドの実装は以下のリポジトリを参照しています。
+
+[https://github.com/calloc134/media-knife-frontend](https://github.com/calloc134/media-knife-frontend)
