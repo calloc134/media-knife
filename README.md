@@ -1,4 +1,4 @@
-# media-knife-colab
+# Media Knife
 
 ## 概要
 
@@ -18,4 +18,4 @@ Google Colab 上で動作することを想定しています。
 - ffmpeg & ffmpeg-python
 - yt-dlp
 - demucs
-- real-esrgan
+-
